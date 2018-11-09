@@ -15,7 +15,7 @@ Install it from [npm](https://www.npmjs.com/package/skinpay-api)
 const SkinPayApi = require('skinpay-api');
 const api = new SkinPayApi({ "privateKey": 'private_key_from_skinpay', "publicKey": 'public_key_from_skinpay' });
 
-// Return deposit url for skinspay
+// Return deposit url for skinpay
 console.log(api.deposit.create({ userid: '76561198216122468', min_amount: 1, currency: 'usd', currency_rate: 66 }));
 // Return true or false (check for sign is right)
 let query = { }; // here your POST body data from request to your server
@@ -29,10 +29,10 @@ api.api.getOrderStatus({ orderid: 1 }).then(console.log).catch(console.error);
 Using npm:
 
 ```bash
-$ npm install skinspay-api
+$ npm install skinpay-api
 ```
 
 # Support
 
 If you use it and you need more api methods, please make an issue and I will help you.
-Report bugs on the [issue tracker](https://github.com/darkwar123/node-skinspay-api/issues)
+Report bugs on the [issue tracker](https://github.com/darkwar123/node-skinpay-api/issues)
