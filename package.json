@@ -1,0 +1,21 @@
+{
+  "name": "skinpay-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "crypto": "^1.0.1",
+    "debug": "^2.5.2",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
